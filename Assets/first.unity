@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0.75
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0.305
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.25081888, g: 0.2812034, b: 0.3290076, a: 0.305}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -141,13 +141,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c0d8eee23f6ed248afc36627899cda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sizeX: 16
+  sizeX: 25
   sizeY: 5
-  sizeZ: 16
+  sizeZ: 25
   blocks:
-  - {fileID: 1722550146631428, guid: ea188fd6643fb4144b1290b2c8fb0c4a, type: 2}
-  - {fileID: 1871191467817916, guid: 95f259bcc317513488f7acec2a2637bf, type: 2}
-  - {fileID: 1032005615029456, guid: 5fac540752c05274e905b07c2c70ada1, type: 2}
+  - {fileID: 1524938588971014, guid: 8dfea1d613bbf0a4cbd5ff65b8384261, type: 2}
+  - {fileID: 1325067686396286, guid: e2bdf3df9d591b74887c7dbc613aee81, type: 2}
+  - {fileID: 1557541180116960, guid: cdab243b105cd024ba6e472032ae2964, type: 2}
   terHeight: 16
   terDetail: 16
 --- !u!4 &332994700
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a99890ed7a57114cab5f944b55437b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockPref: {fileID: 1032005615029456, guid: 5fac540752c05274e905b07c2c70ada1, type: 2}
+  blockPref: {fileID: 1761446321425852, guid: 3b94d442f4db4114bb89381411a81594, type: 2}
 --- !u!1 &527061568
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,18 +268,18 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 1, g: 0.9131994, b: 0.6764706, a: 1}
+  m_Intensity: 0.7
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
-    m_Resolution: -1
+    m_Resolution: 3
     m_CustomResolution: -1
     m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
+    m_Bias: 0.01
+    m_NormalBias: 0
     m_NearPlane: 0.2
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
@@ -531,6 +531,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: near clip plane
+      value: 0.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -552,10 +556,5 @@ MonoBehaviour:
   rayAmmount: 10000
   rayDistance: 100
   stayTime: 2
-  camera: {fileID: 1896718505}
+  cam: {fileID: 0}
   rPoints: []
---- !u!20 &1896718505 stripped
-Camera:
-  m_PrefabParentObject: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0,
-    type: 2}
-  m_PrefabInternal: {fileID: 1485618540}

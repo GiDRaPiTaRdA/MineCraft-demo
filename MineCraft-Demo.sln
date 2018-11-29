@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineCraft-Demo.Plugins", "MineCraft-Demo.Plugins.csproj", "{4174A858-231F-7006-DC01-140976B617C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineCraft-demo.Editor.Plugins", "MineCraft-demo.Editor.Plugins.csproj", "{BA8B82F8-CC60-4677-2CB3-F4315671C2A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineCraft-Demo", "MineCraft-Demo.csproj", "{2ED86962-848D-3FBF-4C6E-66E03D7EBC82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineCraft-demo.Plugins", "MineCraft-demo.Plugins.csproj", "{8A492192-14E3-FE3E-AB02-576C414135F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineCraft-Demo.Editor.Plugins", "MineCraft-Demo.Editor.Plugins.csproj", "{D5D54740-12A9-C4D3-42B1-E218B84EB618}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineCraft-demo", "MineCraft-demo.csproj", "{E788DA0D-992B-FBC8-74CE-BF4DB33F0B96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4174A858-231F-7006-DC01-140976B617C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4174A858-231F-7006-DC01-140976B617C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4174A858-231F-7006-DC01-140976B617C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4174A858-231F-7006-DC01-140976B617C7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2ED86962-848D-3FBF-4C6E-66E03D7EBC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2ED86962-848D-3FBF-4C6E-66E03D7EBC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2ED86962-848D-3FBF-4C6E-66E03D7EBC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2ED86962-848D-3FBF-4C6E-66E03D7EBC82}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5D54740-12A9-C4D3-42B1-E218B84EB618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5D54740-12A9-C4D3-42B1-E218B84EB618}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5D54740-12A9-C4D3-42B1-E218B84EB618}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5D54740-12A9-C4D3-42B1-E218B84EB618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8B82F8-CC60-4677-2CB3-F4315671C2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8B82F8-CC60-4677-2CB3-F4315671C2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8B82F8-CC60-4677-2CB3-F4315671C2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8B82F8-CC60-4677-2CB3-F4315671C2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A492192-14E3-FE3E-AB02-576C414135F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A492192-14E3-FE3E-AB02-576C414135F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A492192-14E3-FE3E-AB02-576C414135F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A492192-14E3-FE3E-AB02-576C414135F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E788DA0D-992B-FBC8-74CE-BF4DB33F0B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E788DA0D-992B-FBC8-74CE-BF4DB33F0B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E788DA0D-992B-FBC8-74CE-BF4DB33F0B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E788DA0D-992B-FBC8-74CE-BF4DB33F0B96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
